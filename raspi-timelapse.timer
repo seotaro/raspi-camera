@@ -3,7 +3,7 @@ Description= Shooting timelapse images.
 
 [Timer]
 AccuracySec=1
-OnBootSec=60
+OnBootSec=10
 OnUnitActiveSec=10
 Unit=raspi-timelapse.service
 
