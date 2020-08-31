@@ -48,6 +48,7 @@ ExecStart=/usr/bin/raspistill --timestamp --timeout 100 --output /mnt/nas/TimeLa
 
 [Install]
 WantedBy=multi-user.target
+
 $ cat raspi-timelapse.timer
 [Unit]
 Description= Shooting timelapse images.
