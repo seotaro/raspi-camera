@@ -4,15 +4,16 @@
 
 ### [Raspberry Pi High Quality Camera](https://static.raspberrypi.org/files/product-briefs/Raspberry_Pi_HQ_Camera_Product_Brief.pdf)
 
-このモジュールはレンズ交換式で C/CS マウントレンズを装着して使用する。マウントでフランジバックの長さが異なる。Ｃマウント規格は17.526mm、ＣＳマウント規格は12.5mm。無限遠が出ればよい、ぐらいで適当にバックフォーカスを調整する。
+このモジュールはレンズ交換式で C/CS マウントレンズを装着して使用する。マウントでフランジバックの長さが異なる。Ｃマウント規格は17.526mm、ＣＳマウント規格は12.5mm。無限遠が出ればよい、ぐらいで適当にバックフォーカスを調整する。CS マウントには、カメラモジュール付属の C-CS アダプターは不要。
 
 フォーカスはデスクトップ GUI でraspistill コマンドのライブプレビューで調整する。
 
-[6mm CS-mount lens](https://static.raspberrypi.org/files/product-guides/Typical_CS-Mount_Lens_Guide.pdf) を組み合わせた例。このレンズは CS マウントなので、カメラモジュール付属の C-CS アダプターは不要。
-
 ## セットアップ
 
-リボンケープルで接続して、raspi-config から 5 Interfacing Options > P1 Camera でカメラを有効にする。
+ラズパイとカメラモジュールはリボンケープルで接続する。
+[Raspberry Pi 3 Model A+](https://www.raspberrypi.org/products/raspberry-pi-3-model-a-plus/) & [Raspberry Pi High Quality Camera](https://www.raspberrypi.org/products/raspberry-pi-high-quality-camera/) & 6mm CS-mount lens の例）
+
+raspi-config から 5 Interfacing Options > P1 Camera でカメラを有効にする。
 
 ## コマンド
 
