@@ -1,0 +1,9 @@
+[Unit]
+Description= Shooting timelapse images.
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/raspistill --timestamp --quality 90 --awb sun --timeout 1000 --output ./timelapse/%%d.jpg
+
+[Install]
+WantedBy=multi-user.target

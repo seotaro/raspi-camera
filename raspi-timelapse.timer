@@ -1,0 +1,10 @@
+[Unit]
+Description= Shooting timelapse images.
+
+[Timer]
+OnBootSec=1min
+OnUnitActiveSec=10sec
+Unit=raspi-timelapse.service
+
+[Install]
+WantedBy=multi-user.target
